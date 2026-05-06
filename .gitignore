@@ -1,0 +1,35 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# os
+.DS_Store
+Thumbs.db
+
+# editeurs
+.idea/
+.vscode/
+
+# secrets
+.env
+
+# data brut et processed (trop lourd pour git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# notebooks
+.ipynb_checkpoints/
+
+# streamlit
+.streamlit/secrets.toml
+
+# pytest
+.pytest_cache/
+pytest-cache-files-*/
