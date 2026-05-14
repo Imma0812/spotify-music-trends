@@ -19,7 +19,6 @@ Thumbs.db
 .env
 
 # data brut et processed (trop lourd pour git)
-data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
